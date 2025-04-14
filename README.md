@@ -45,7 +45,12 @@ Há dois tipos de avaliação no notebook: com o dataset completo (mais demorado
 
 ```bash
 pip install -r requirements.txt
-
+```
+2. Execução do notebook:
+```bash
 jupyter notebook busca_empresas.ipynb
-
+```
+3. Execução da função dentro do notebook:
+```bash
 buscar_empresas("<nome da loja>, "<UF>", df)
+```
